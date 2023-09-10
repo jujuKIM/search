@@ -1,0 +1,221 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;600;700&display=swap');
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+button:focus,
+button:hover {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    margin: 0 15px 0 15px;
+}
+
+header {
+    border-bottom: 1px #ccc solid;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+
+.searchTop{
+    border:none;
+}
+.searchMiddle{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    /*line-height: 1.5;*/
+    /*border: 1px solid #cccccc;*/
+    border-radius: 40px;
+    background-color: #F1F2F4;
+    border: none;
+}
+.searchBottom {
+    width: 100%;
+    margin: 15px 0 15px 0;
+    padding: 10px 15px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: row;
+}
+.magnifyingGlass {
+}
+input[type=text] {
+    font-family: 'Noto Sans KR', sans-serif;
+    /*display: block;*/
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    /*border-radius: 40px;*/
+    background-color: #F1F2F4;
+    border: none;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.content {
+    border: 1px solid #ccc;
+    border:none;
+    width:100%;
+}
+.often{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.oftenKeyword{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color:#8D8D8D;
+    background-color: #F6F5F8;
+    border-radius: 40px;
+    width:140%;
+    height:30px;
+    float:left;
+    /*marginRight:10px;*/
+    /*marginLeft:10px;*/
+    text-align: center;
+    padding-top: 5px;
+}
+.keyWordList{
+    width:100%;
+    background-color: red;
+}
+
+ul.tabs {
+    display: flex;
+}
+
+.tabs li {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    /*text-align: center;*/
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    /*background-color: #eee;*/
+    color: #999;
+    font-family:'Noto Sans KR', sans-serif ;
+}
+
+.tabs li.active {
+    color: #8D8D8D;
+    border:none;
+    font-family:'Noto Sans KR', sans-serif ;
+    font-weight: 600;
+}
+
+.tabs li:hover,
+.tabs li:focus {
+    cursor: pointer;
+}
+
+.list li {
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    /* border-bottom: 1px solid #ccc; */
+    position: relative;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.list li .number {
+    margin-right: 15px;
+    color: #ccc;
+}
+
+.list li .date {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    color: #ccc;
+}
+
+.list li .btn-remove {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 15px;
+}
+
+form {
+    position: relative;
+}
+
+.btn-reset,
+.btn-remove {
+    border-radius: 50%;
+    /*background-color: ;*/
+    color: #818181;
+    border: none;
+    padding: 2px 5px;
+}
+
+.btn-reset {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.btn-reset::before,
+.btn-remove::before {
+    content: 'X'
+}
+
+.result li {
+    display: flex;
+    margin-bottom: 16px;
+    height: 80px;
+
+}
+
+.result li:last-child {
+    margin-bottom: 0;
+}
+
+.result img {
+    width: 100px;
+    object-fit: cover;
+}
+
+.result p {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.empty-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: grey;
+}
+.dataContainer h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
