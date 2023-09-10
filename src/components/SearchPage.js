@@ -4,7 +4,7 @@ import HistoryList from "./HistoryList.js";
 import SearchForm from "./SearchForm.js";
 import SearchResult from "./SearchResult.js";
 import Tabs, { TabType } from "./Tabs.js";
-import store from "../../../search/src/Store.js";
+import store from "../Store.js";
 import { BiSearch } from "react-icons/bi";
 import '../style.css';
 
