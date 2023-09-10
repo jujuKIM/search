@@ -1,5 +1,5 @@
 import React from "react";
-import store from "../../../search/src/Store.js";
+import store from "../Store.js";
 import List from "./List.js";
 
 export default class HistoryList extends React.Component {
