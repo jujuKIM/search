@@ -1,5 +1,5 @@
 import React from "react";
-import store from "../../../search/src/Store.js";
+import store from "../Store.js";
 
 export default class KeywordList extends React.Component {
     constructor() {
