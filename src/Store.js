@@ -57,4 +57,4 @@ class Store {
 }
 
 const store = new Store(storage);
-export default store;
+export default Store;
